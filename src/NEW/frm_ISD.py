@@ -1,12 +1,10 @@
 import tkinter as tk
 import os
 import threading
-import numpy as np
 from tkinter import ttk, messagebox
 from cls_Generate import generate_H, generate_m
-from spreadsheet import Spreadsheet  # Import the Spreadsheet widget
-from matplotlib.figure import Figure
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from NEW.spreadsheet import Spreadsheet  # Import the Spreadsheet widget
+
 
 class ISDApp(tk.Tk):
     default_n = 200

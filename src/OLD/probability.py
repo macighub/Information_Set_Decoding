@@ -14,7 +14,7 @@ for t in range(2,21):
     sys.stdout.flush()
 
     sol_cnt = 0
-    for i in range(0, 1000):
+    for i in range(0, 100000):
         isSolution = 0
 
         # Generate random m with weight t

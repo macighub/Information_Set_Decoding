@@ -1,11 +1,9 @@
 import tkinter as tk
 import os
 import threading
-import numpy as np
 from tkinter import ttk, messagebox
-from cls_Generate import generate_H, generate_m
-from matplotlib.figure import Figure
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from NEW.cls_Generate import generate_H, generate_m
+
 
 class ISDApp(tk.Tk):
     default_n = 200
